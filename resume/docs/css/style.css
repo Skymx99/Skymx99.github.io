@@ -10,6 +10,10 @@ html, body{
   	background: #FFf;
 }
 
+.blank {
+	background-color: white !important;
+}
+
 .skills {
 	
 	margin-bottom: 50px;
@@ -264,9 +268,7 @@ background-position: 3px -94px;
 .welcome-note{
 	margin:3em 0;
 }
-.note{
-	
-}
+
 .note h1{
 	color:#FFF;
 	font-size:2.5em;
@@ -275,119 +277,9 @@ background-position: 3px -94px;
 .note h1 span{
 	font-weight:700;
 }
-/*-- /blogs --*/
-.news-text {
-    float: right;
-    padding: 3.38em 2em;
-    background: #f4f4f4;
-}
-.news-img {
-    float: left;
-    position: relative;
-    padding: 0;
-}
-.news-text.two {
-    float:left;
-}
-.news-img img,.news-img.two  img{
-    width: 100%;
-}
-.news-img.two {
-    float:right;
-}
-.news-text h3   {
-    font-size: 1.4em;
-    color: #333333;
-    text-transform: uppercase;
-        margin-bottom: 1em;
-		font-weight:bold;
-}
-.news-text p {
-    font-size: 0.9em;
-    line-height: 1.9em;
-    margin: 1em 0 2em 0;
-    color: #777;
-}
-.news-text h3  a,ul.news li:hover  i{
-	 color:#00a78e;
-	 text-decoration:none;
-}
-ul.news li {
-    display: inline-block;
-       margin-right: 1em;
-}
-ul.news li i {
-    margin-right: 4px;
-}
-ul.news li a{
-    font-size: 0.9em;
-    color: #777;
-}
-ul.news li i{
-	color:#333;
-}
-a.read {
-    padding: 0.5em 1.5em;
-    font-size: 1em;
-    color: #00a78e;
-    border: 2px solid #00a78e;
-    text-decoration: none;
-    border-radius: 1.5em;
-    -webkit-border-radius: 1.5em;
-    -moz-border-radius: 1.5em;
-    -o-border-radius: 1.5em;
-    -ms-border-radius: 1.5em;
-}
-a.read:hover {
-	background:#00a78e;
-	color:#fff;
-}
-ul.news {
-    padding: 0;
-}
-.news-grid {
-    margin: 2em 0;
-}
-.news-grid:hover{
-		transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
-   box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-   -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-   -moz-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-   -o-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.blog {
-    padding:5em 0;
-}
-.about-inner p {
-    color: #777;
-    line-height: 1.8em;
-    font-size:0.9em;
-}
-h4.tittle  {
-    color: #00a78e;
-    text-decoration: none;
-    font-size: 1.4em;
-    margin: 1em 0 0.5em 0;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.modal-dialog.about {
-    width: 757px;
-    margin:3.5em auto 0;
-}
-.modal-content.about {
-    background-color: #fff;
-    border-radius: 0px!important;
-}
-.modal-body {
-    position: relative;
-    padding: 20px;
-    text-align: center;
-}
+
+
+
 /*-- about-us --*/
 span.border {
     width: 18%;
@@ -520,7 +412,7 @@ span.border.one:after {
 	left:0%;
     width:30%;
 	height: 1px;
-	background: #212121;
+	background: #cecece;
 }
 .wthree_about_right h3 span:after{
 	right:85.5%;
@@ -530,7 +422,7 @@ span.border.one:after {
 }
 .wthree_about_right p{
 	margin:2em 0 3em;
-	color:#999;
+	color:rgb(214, 214, 214);
 	line-height:1.8em;
 }
 .wthree_about_right p i{
@@ -556,7 +448,7 @@ span.border.one:after {
 }
 .wthree_about_right_grid_right p{
 	    margin: 1em 0 0;
-    color: #586371;
+    color: #8ea0b6;
     line-height: 1.9em;
     font-size: 0.9em;
 }
@@ -679,7 +571,7 @@ h4.timeline-title a:hover {
     color: #00C6D7;
 }
 .timeline-body p {
-    font-size: 0.9em;
+    font-size: 0.5em;
     margin: 0;
     padding: 0;
     color: #777;
@@ -866,33 +758,7 @@ ul.year li:nth-child(5){
 .portfolio{
 	padding:3.5em 0;
 }
-/*-- feedback --*/
-.feedback{
-	background: url(../images/feedback-bg.jpg) no-repeat 0px 0px;
-	background-size: cover;
-	min-height: 300px;
-	padding: 6em 0 0 0;
-}
-.feedback-grid p{
-	color: #FFf;
-	font-size: 1.2em;
-	line-height: 1.5em;
-	width: 90%;
-	margin: 0 auto;
-}
-.feedback-grid h4{
-	color:#2ec06c;
-	font-weight:700;
-	font-family: 'Asap', sans-serif;
-	font-size:1.3em;
-	margin:1em 0 0 0;
-}
-.feedback-grid h4 span{
-	color:#FFF;
-	font-weight:400;
-	font-size:0.7em;
-	font-style:italic;
-}
+
 /*-- /portfolio --*/
 .sap_tabs{
 	clear:both;
